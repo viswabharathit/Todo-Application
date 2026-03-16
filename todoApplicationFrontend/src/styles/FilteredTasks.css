@@ -1,0 +1,111 @@
+.filtered-tasks-page {
+  width: 100%;
+}
+
+.filtered-tasks-page h1 {
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task-item {
+  padding: 16px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: white;
+}
+
+.task-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.task-info h3 {
+  margin: 0 0 6px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.task-info p {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.task-meta {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+
+.due-date {
+  color: #ff4d4f;
+  font-weight: 500;
+}
+
+.overdue {
+  color: #cf1322;
+  font-weight: 600;
+}
+
+.project-name {
+  color: #1890ff;
+}
+
+.priority {
+  color: #fa8c16;
+  font-weight: 500;
+}
+
+.status {
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.status-pending {
+  background: #fff7e6;
+  color: #fa8c16;
+}
+
+.status-completed {
+  background: #f6ffed;
+  color: #52c41a;
+}
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.complete-btn {
+  padding: 6px 12px;
+  background: #52c41a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.complete-btn:hover {
+  background: #389e0d;
+}
+
+.no-data {
+  color: #aaa;
+  font-size: 14px;
+}

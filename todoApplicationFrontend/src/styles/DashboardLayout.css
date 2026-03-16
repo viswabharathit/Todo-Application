@@ -1,0 +1,14 @@
+.dashboard-layout {
+    display: flex;
+    height: 100vh;        /* ✅ full viewport height */
+    overflow: hidden;     /* ✅ prevent whole page scroll */
+}
+
+.dashboard-content {
+    flex: 1;
+    padding: 40px;
+    margin-left: 260px;
+    height: 100vh;        /* ✅ full height */
+    overflow-y: auto;     /* ✅ only content scrolls */
+    box-sizing: border-box;
+}

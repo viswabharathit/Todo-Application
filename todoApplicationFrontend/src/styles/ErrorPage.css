@@ -1,0 +1,40 @@
+.error-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.error-page h1 {
+  font-size: 100px;
+  color: #ff4d4f;
+  margin: 0;
+}
+
+.error-page h2 {
+  font-size: 28px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.error-page p {
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.error-page button {
+  padding: 10px 24px;
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.error-page button:hover {
+  background: #e63b3d;
+}
